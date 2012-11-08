@@ -78,8 +78,8 @@
             height = parseInt(height * scale, 10);
         }
         if (img.getContext || (options.canvas && canvas.getContext)) {
-            canvas.width = width;
-            canvas.height = height;
+            // canvas.width = width;
+            // canvas.height = height;
             canvas.getContext('2d')
                 .drawImage(img, 0, 0, width, height);
             return canvas;
