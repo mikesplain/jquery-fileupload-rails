@@ -465,8 +465,8 @@
                     }
                 },
                 {
-                    maxWidth: options.previewMaxWidth,
-                    maxHeight: options.previewMaxHeight,
+                    // maxWidth: options.previewMaxWidth,
+                    // maxHeight: options.previewMaxHeight,
                     canvas: options.previewAsCanvas
                 }
             )) || dfd.resolveWith(node)) && dfd;
