@@ -58,9 +58,9 @@
             // The maximum file size of images that are to be displayed as preview:
             previewSourceMaxFileSize: 5000000, // 5MB
             // The maximum width of the preview images:
-            previewMaxWidth: 80,
+            previewMaxWidth: 300,
             // The maximum height of the preview images:
-            previewMaxHeight: 80,
+            previewMaxHeight: 300,
             // By default, preview images are displayed as canvas elements
             // if supported by the browser. Set the following option to false
             // to always display preview images as img elements:
